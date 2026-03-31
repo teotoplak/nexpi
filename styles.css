@@ -253,7 +253,7 @@ img {
 
 .hero h1 {
   max-width: 12ch;
-  font-size: clamp(3.4rem, 7vw, 6.6rem);
+  font-size: clamp(2.2rem, 4vw, 4.4rem);
 }
 
 .hero-text,
@@ -644,16 +644,18 @@ img {
   transform: translateY(0);
 }
 
+@media (max-width: 1200px) {
+  .hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding-top: 3rem;
+  }
+}
+
 @media (max-width: 1080px) {
-  .hero,
   .cards-three,
   .timeline {
     grid-template-columns: 1fr;
-  }
-
-  .hero {
-    min-height: auto;
-    padding-top: 3rem;
   }
 
   .hero h1 {
@@ -718,7 +720,8 @@ img {
   }
 
   .hero h1 {
-    font-size: clamp(2.45rem, 12vw, 3.8rem);
+    max-width: none;
+    font-size: clamp(2rem, 9vw, 2.8rem);
   }
 
   .hero-actions {

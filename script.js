@@ -151,7 +151,7 @@ const translations = {
     "hero.pointsLabel": "Ključne prednosti",
     "hero.point1": "Namijenjeno timovima od 10 do 300 zaposlenih",
     "hero.point2": "Fokus na ROI i operativnu učinkovitost",
-    "hero.point3": "Brza implementacija bez overengineeringa",
+    "hero.point3": "Brza implementacija bez komplikacija",
     "hero.targetsLabel": "Tipični procesi za automatizaciju",
     "hero.target1": "Obrada leadova i follow-up komunikacija",
     "hero.target2": "Izvještavanje i interni dashboardi",
@@ -341,6 +341,10 @@ function setLanguage(language, persist = true) {
 
 const savedLanguage = localStorage.getItem("nexpi-language");
 setLanguage(savedLanguage || "hr", false);
+
+const foucGuard = document.getElementById("fouc-guard");
+if (foucGuard) foucGuard.remove();
+document.documentElement.style.visibility = "";
 
 languageButtons.forEach((button) => {
   button.addEventListener("click", () => {
