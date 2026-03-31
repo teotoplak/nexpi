@@ -262,21 +262,7 @@ const metaOgTitle = document.getElementById("meta-og-title");
 const metaOgDescription = document.getElementById("meta-og-description");
 const revealItems = document.querySelectorAll("[data-reveal]");
 
-let currentLanguage = "en";
-
-function looksCroatian() {
-  const browserLanguages = [
-    ...(navigator.languages || []),
-    navigator.language || "",
-    navigator.userLanguage || "",
-  ].filter(Boolean);
-  const hasCroatianLanguage = browserLanguages.some(
-    (language) => /^hr\b/i.test(language) || /-HR\b/i.test(language)
-  );
-  const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone || "";
-
-  return hasCroatianLanguage || timezone === "Europe/Zagreb";
-}
+let currentLanguage = "hr";
 
 function updateNavToggleLabel(language) {
   if (!navToggle) {
@@ -354,7 +340,7 @@ function setLanguage(language, persist = true) {
 }
 
 const savedLanguage = localStorage.getItem("nexpi-language");
-setLanguage(savedLanguage || (looksCroatian() ? "hr" : "en"), false);
+setLanguage(savedLanguage || "hr", false);
 
 languageButtons.forEach((button) => {
   button.addEventListener("click", () => {
