@@ -173,7 +173,7 @@ const translations = {
     "services.eyebrow": "Što automatiziramo",
     "services.title": "Interne procese koji tiho usporavaju rast.",
     "services.text":
-      "Zamjenjujemo repetitivan i sklon pogreškama ručni rad sustavima koji održavaju operacije učinkovitima bez dodatnog zapošljavanja samo da bi se održao tempo.",
+      "Zamjenjujemo repetitivan ručni rad koji je sklon pogreškama sustavima koji održavaju operacije učinkovitima bez dodatnog zapošljavanja samo da bi se održao tempo.",
     "services.card1Title": "Lead i korisnički workflowovi",
     "services.card1Text":
       "Usmjerite dolazne leadove, pokrenite follow-up poruke, kvalificirajte upite i održavajte komunikaciju automatski.",
@@ -199,8 +199,8 @@ const translations = {
     "approach.eyebrow": "Kako radimo",
     "approach.title": "Praktičan model isporuke temeljen na brzini i jasnoći.",
     "approach.text":
-      "Suradnju držimo jednostavnom: pronađemo trenje, dizajniramo odgovarajuću automatizaciju, implementiramo brzo i zatim je po potrebi unapređujemo.",
-    "approach.step1Title": "Discovery i audit",
+      "Suradnju držimo jednostavnom: pronađemo problem, dizajniramo odgovarajuću automatizaciju, implementiramo brzo i zatim je po potrebi unapređujemo.",
+    "approach.step1Title": "Početna analiza",
     "approach.step1Text":
       "Mapiramo vaš trenutni workflow, pronalazimo uska grla i identificiramo prilike za automatizaciju s najvećim učinkom.",
     "approach.step2Title": "Dizajn rješenja",
@@ -213,7 +213,7 @@ const translations = {
     "approach.step4Text":
       "Kad je prvi sustav live, poboljšavamo performanse i širimo automatizaciju na povezane procese.",
     "why.eyebrow": "Zašto NEXPI",
-    "why.title": "Za operativce koji žele rezultate, a ne buzzworde.",
+    "why.title": "Za operativce koji žele konkretne rezultate.",
     "why.promise1Title": "ROI na prvom mjestu",
     "why.promise1Text":
       "AI koristimo kao alat. Pravi proizvod su bolje i učinkovitije operacije.",
@@ -227,8 +227,8 @@ const translations = {
     "why.promise4Text":
       "Standardiziramo česte operativne probleme kako bi isporuka ostala brza i pouzdana.",
     "pricing.eyebrow": "Modeli suradnje",
-    "pricing.title": "Fleksibilni načini za početak, ovisno o razini podrške koja vam treba.",
-    "pricing.card1Title": "Projektno",
+    "pricing.title": "Fleksibilna rješenja za početak, ovisno o razini podrške koja vam treba.",
+    "pricing.card1Title": "Jednokratna suradnja",
     "pricing.card1Subtitle": "Najbolje za jedan workflow visokog učinka",
     "pricing.card1Text":
       "Jednokratna implementacija usmjerena na konkretan operativni problem s jasnim opsegom i definiranim rezultatom.",
@@ -236,7 +236,7 @@ const translations = {
     "pricing.card2Title": "Mjesečni retainer",
     "pricing.card2Subtitle": "Najbolje za kontinuiranu optimizaciju",
     "pricing.card2Text":
-      "Kontinuirana podrška, iteracije i širenje automatizacije kako poslovanje raste i pojavljuju se nova uska grla.",
+      "Kontinuirana podrška, iteracije i širenje automatizacije kako poslovanje raste i pojavljuju se nova ograničenja i izazovi.",
     "pricing.card3Title": "Produktizirana rješenja",
     "pricing.card3Subtitle": "Najbolje za ponovljive use caseove",
     "pricing.card3Text":
